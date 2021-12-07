@@ -14,10 +14,20 @@ ul {
   list-style: none;
 }
 
+/* Variables  */
+
+:root {
+  /* Fonts*/
+  --font-padrao: 'Roboto', sans-serif;
+
+  /* Colors */
+  --cor-padrao: #d6000d;
+}
+
 /* Padrão */
 
 .container {
-  max-width: 1000px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,13 +39,13 @@ nav {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .logo {
   font-size: 3rem;
-  font-weight: 700;
-  color: #d6000d;
+  font-weight: 800;
+  color: var(--cor-padrao);
 }
 
 .ponto {
@@ -48,11 +58,12 @@ nav {
 }
 
 nav ul li a {
+  font-family: var(--font-padrao);
   font-size: 1.5rem;
 }
 
 .login {
-  background-color: #d6000d;
+  background-color: var(--cor-padrao);
   color: white;
   padding: 0.5rem 3rem;
   border-radius: 0.5rem;
