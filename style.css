@@ -24,18 +24,36 @@ ul {
 
 /* === Header === */
 
-header {
-}
-
 nav {
-  height: 8rem;
+  height: 6rem;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d6000d;
+}
+
+.ponto {
+  color: black;
+}
+
 .menu {
   display: flex;
   gap: 1.5rem;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+}
+
+.login {
+  background-color: #d6000d;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
 }
