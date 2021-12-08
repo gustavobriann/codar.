@@ -72,6 +72,8 @@ nav {
   font-style: italic;
   font-family: var(--font-padrao);
   color: var(--cor-padrao);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .ponto {
@@ -94,6 +96,7 @@ nav ul li a {
   color: white;
   padding: 0.5rem 3rem;
   border-radius: 0.5rem;
+  margin-right: 1.5rem;
 }
 
 /* Home - Section */
@@ -134,6 +137,10 @@ div.text a {
 }
 
 /* Serviços - Section*/
+
+section#servicos {
+  height: 100vh;
+}
 
 .cima {
   display: flex;
@@ -180,3 +187,5 @@ div.text a {
   padding: 0.8rem 3rem;
   border-radius: 0.8rem;
 }
+
+/* Depoimentos - Section*/
