@@ -14,6 +14,11 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Variables  */
 
 :root {
@@ -44,7 +49,9 @@ nav {
 
 .logo {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
+  font-style: italic;
+  font-family: var(--font-padrao);
   color: var(--cor-padrao);
 }
 
@@ -67,4 +74,44 @@ nav ul li a {
   color: white;
   padding: 0.5rem 3rem;
   border-radius: 0.5rem;
+}
+
+/* Home - Section */
+
+section {
+  margin-top: 5rem;
+}
+
+#inicio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.principal {
+  width: 400px;
+}
+
+.text p {
+  font-family: var(--font-padrao);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+div.text p:nth-child(2n) {
+  font-family: var(--font-padrao);
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--cor-padrao);
+}
+
+div.text a {
+  background-color: var(--cor-padrao);
+  color: white;
+  font-family: var(--font-padrao);
+  font-size: 1.5rem;
+
+  padding: 0.2rem 3rem;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
 }
