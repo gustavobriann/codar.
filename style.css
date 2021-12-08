@@ -67,6 +67,7 @@ nav {
 nav ul li a {
   font-family: var(--font-padrao);
   font-size: 1.5rem;
+  color: black;
 }
 
 .login {
@@ -80,6 +81,7 @@ nav ul li a {
 
 section {
   margin-top: 5rem;
+  /* height: 80vh; */
 }
 
 #inicio {
@@ -110,8 +112,9 @@ div.text a {
   color: white;
   font-family: var(--font-padrao);
   font-size: 1.5rem;
+  font-weight: 700;
 
-  padding: 0.2rem 3rem;
+  padding: 0.6rem 3rem;
   border-radius: 0.5rem;
   margin-top: 5rem;
 }
