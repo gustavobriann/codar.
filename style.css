@@ -31,10 +31,25 @@ img {
 
 /* Padrão */
 
-.container {
-  max-width: 1120px;
+.hcontainer {
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bcontainer {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  /* margin-top: 5rem; */
+  height: 85vh;
+}
+
+img {
+  width: 400px;
 }
 
 /* === Header === */
@@ -79,20 +94,15 @@ nav ul li a {
 
 /* Home - Section */
 
-section {
-  margin-top: 5rem;
-  /* height: 80vh; */
-}
-
 #inicio {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.principal {
+/* .principal {
   width: 400px;
-}
+} */
 
 .text p {
   font-family: var(--font-padrao);
@@ -117,4 +127,24 @@ div.text a {
   padding: 0.6rem 3rem;
   border-radius: 0.5rem;
   margin-top: 5rem;
+}
+
+/* Serviços - Section*/
+
+.cima {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lista-servicos ul {
+  list-style: outside;
+}
+
+.lista-servicos ul li {
+  font-family: var(--font-padrao);
+
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
 }
