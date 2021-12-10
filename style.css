@@ -222,6 +222,24 @@ blockquote {
 /* Footer */
 
 footer {
-  background: black;
+  background: rgb(75, 69, 69);
+  color: white;
   height: 50vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer div {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer .logo {
+  font-size: 3.5rem;
+  color: white;
 }
