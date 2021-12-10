@@ -45,7 +45,7 @@ img {
 
 section {
   /* margin-top: 5rem; */
-  height: 85vh;
+  height: 90vh;
 }
 
 img {
@@ -140,6 +140,8 @@ div.text a {
 
 section#servicos {
   height: 100vh;
+  display: grid;
+  align-content: center;
 }
 
 .cima {
@@ -216,6 +218,8 @@ blockquote {
   padding: 2rem;
   border-radius: 1rem;
 }
+
+/* Footer */
 
 footer {
   background: black;
