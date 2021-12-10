@@ -216,3 +216,8 @@ blockquote {
   padding: 2rem;
   border-radius: 1rem;
 }
+
+footer {
+  background: black;
+  height: 50vh;
+}
