@@ -251,13 +251,20 @@ footer div {
 }
 
 footer div h2 {
+  font-size: 1.5rem;
   display: flex;
   height: 50px;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 footer .logo {
   font-size: 3rem;
   color: white;
-  margin: 0;
+  /* margin-bottom: 2rem; */
+}
+
+footer .icons {
+  display: flex;
+  gap: 1rem;
 }
