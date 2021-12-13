@@ -31,21 +31,10 @@ img {
 
 /* Padrão */
 
-.hcontainer {
+.container {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.bcontainer {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section {
-  /* margin-top: 5rem; */
-  height: 90vh;
 }
 
 img {
@@ -59,7 +48,7 @@ input {
 /* === Header === */
 
 nav {
-  height: 6rem;
+  height: 5rem;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -105,6 +94,10 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+section#inicio {
+  height: 80vh;
 }
 
 /* .principal {
