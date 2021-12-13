@@ -229,6 +229,10 @@ blockquote {
   border-radius: 1rem;
 }
 
+blockquote p:nth-child(1n) {
+  margin-bottom: 0.5rem;
+}
+
 blockquote .text-dep p:nth-child(3n) {
   font-weight: 700;
 }
@@ -247,7 +251,7 @@ footer {
   align-items: center;
 }
 
-footer > h2 {
+footer h2 {
   margin-bottom: 1rem;
 }
 
