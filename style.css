@@ -209,11 +209,10 @@ blockquote .text-dep p:nth-child(3) {
 /* Footer */
 
 footer {
+  font-family: var(--font-padrao);
   background: rgb(0, 0, 0);
   color: white;
   height: 50vh;
-
-  font-family: var(--font-padrao);
 
   display: flex;
   justify-content: space-evenly;
@@ -227,9 +226,6 @@ footer h2 {
 footer div {
   width: 200px;
   height: 200px;
-
-  /* display: flex;
-  flex-direction: column; */
 }
 
 footer div h2 {
@@ -242,7 +238,6 @@ footer div h2 {
 footer .logo {
   font-size: 3rem;
   color: white;
-  /* margin-bottom: 2rem; */
 }
 
 footer .icons {
