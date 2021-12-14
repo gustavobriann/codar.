@@ -195,14 +195,14 @@ blockquote {
   height: 160px;
   width: 450px;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 
-blockquote p:nth-child(1n) {
+blockquote p:nth-child(1) {
   margin-bottom: 0.5rem;
 }
 
-blockquote .text-dep p:nth-child(3n) {
+blockquote .text-dep p:nth-child(3) {
   font-weight: 700;
 }
 
