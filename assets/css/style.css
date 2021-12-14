@@ -36,7 +36,7 @@ html {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -160,7 +160,7 @@ section#servicos .lista-servicos ul li {
 }
 
 section#servicos .assist {
-  margin-left: 3.5rem;
+  margin-left: 10%;
 }
 
 .assist p {
