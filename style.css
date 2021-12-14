@@ -31,6 +31,10 @@ img {
 
 /* Padrão */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1000px;
   margin-left: auto;
@@ -76,12 +80,22 @@ nav ul li a {
   color: black;
 }
 
+nav ul li a:hover {
+  color: var(--cor-padrao);
+  transition: 0.3s;
+}
+
 .login {
   background-color: var(--cor-padrao);
   color: white;
   padding: 0.5rem 3rem;
   margin-right: 1.5rem;
   border-radius: 0.5rem;
+}
+
+.login:hover {
+  background-color: #ff0011;
+  transition: 0.3s;
 }
 
 /* Home - Section */
@@ -113,6 +127,11 @@ div.text-home a {
 
   border-radius: 0.8rem;
   padding: 0.5rem 3rem;
+}
+
+div.text-home a:hover {
+  background-color: #ff0011;
+  transition: 0.3s;
 }
 
 /* Serviços - Section*/
@@ -162,6 +181,11 @@ section#servicos .assist {
   color: white;
   padding: 0.8rem 3rem;
   border-radius: 0.8rem;
+}
+
+.assist a:hover {
+  background-color: #ff0011;
+  transition: 0.3s;
 }
 
 /* Depoimentos - Section*/
