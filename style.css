@@ -123,7 +123,7 @@ section#servicos {
   align-content: center;
 }
 
-.cima {
+section#servicos .servicos {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -135,25 +135,17 @@ section#servicos {
   margin-bottom: 1rem;
 }
 
-.lista-servicos ul {
-  list-style: none;
+section#servicos .lista-servicos ul li {
+  font: 1.5rem var(--font-padrao);
+  padding-left: 1rem;
 }
 
-.lista-servicos ul li {
-  font-family: var(--font-padrao);
-
-  font-size: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.assist {
+section#servicos .assist {
   margin-left: 3.5rem;
 }
 
 .assist p {
-  font-family: var(--font-padrao);
-  font-size: 1.5rem;
-  font-weight: 700;
+  font: 700 1.5rem var(--font-padrao);
   margin-bottom: 0.5rem;
 }
 
@@ -165,9 +157,7 @@ section#servicos {
 }
 
 .assist a {
-  font-family: var(--font-padrao);
-  font-weight: 700;
-
+  font: 700 1rem var(--font-padrao);
   background-color: var(--cor-padrao);
   color: white;
   padding: 0.8rem 3rem;
