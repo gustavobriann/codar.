@@ -1,1 +1,70 @@
 /*========= MEDIA QUERIES =========*/
+@media (max-width: 500px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  #header {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 10rem;
+    width: 90vw;
+  }
+
+  nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login {
+    display: none;
+    visibility: hidden;
+  }
+
+  #inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #inicio img {
+    margin-bottom: 4rem;
+  }
+
+  #inicio .text-home {
+    text-align: center;
+  }
+
+  #servicos .servicos {
+    display: none;
+    visibility: hidden;
+    flex-direction: column;
+  }
+
+  #servicos .assist {
+    display: none;
+    visibility: hidden;
+    flex-direction: column;
+  }
+
+  #depoimentos {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
