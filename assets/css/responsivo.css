@@ -5,6 +5,11 @@
     margin-right: 1.5rem;
   }
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   #header {
     width: 100%;
   }
@@ -16,7 +21,7 @@
     justify-content: space-evenly;
 
     height: 10rem;
-    width: 90vw;
+    width: 100%;
   }
 
   nav .logo {
