@@ -1,1 +1,42 @@
-/**** Media Queries ***/
+/*========= MEDIA QUERIES =========*/
+
+@media (max-width: 500px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  nav {
+    height: 10rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .login {
+    display: none;
+    visibility: hidden;
+  }
+
+  #inicio {
+    display: none;
+    visibility: hidden;
+  }
+
+  #servicos {
+    display: none;
+    visibility: hidden;
+  }
+
+  #depoimentos {
+    display: none;
+    visibility: hidden;
+  }
+
+  #footer {
+    display: none;
+    visibility: hidden;
+  }
+}
