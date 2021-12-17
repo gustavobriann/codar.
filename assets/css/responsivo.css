@@ -51,8 +51,12 @@
     align-items: center;
   }
 
+  .text-home p {
+    font: 700 1.2rem var(--font-padrao);
+  }
+
   div.text-home p:nth-child(2) {
-    font: 700 3rem var(--font-padrao);
+    font: 700 2rem var(--font-padrao);
     color: var(--cor-padrao);
     margin-bottom: 2rem;
   }
@@ -60,10 +64,10 @@
   div.text-home a {
     background-color: var(--cor-padrao);
     color: white;
-    font: 4 1.5rem var(--font-padrao);
+    font: 400 1.2rem var(--font-padrao);
 
     border-radius: 0.8rem;
-    padding: 1rem 4rem;
+    padding: 0.8rem 3rem;
   }
 
   #servicos {
