@@ -2,12 +2,15 @@
 
 @media (max-width: 500px) {
   .container {
+    margin: auto;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 
+  /* === Header === */
+
   nav {
-    height: 10rem;
+    height: 20vh;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -21,8 +24,46 @@
   }
 
   #inicio {
-    display: none;
-    visibility: hidden;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #inicio .img-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  #inicio img {
+    width: 90%;
+  }
+
+  #inicio .text-home {
+    text-align: center;
+  }
+
+  #inicio .text {
+    align-items: center;
+  }
+
+  div.text-home p:nth-child(2) {
+    font: 700 3rem var(--font-padrao);
+    color: var(--cor-padrao);
+    margin-bottom: 2rem;
+  }
+
+  div.text-home a {
+    background-color: var(--cor-padrao);
+    color: white;
+    font: 4 1.5rem var(--font-padrao);
+
+    border-radius: 0.8rem;
+    padding: 1rem 4rem;
   }
 
   #servicos {
