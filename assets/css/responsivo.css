@@ -138,8 +138,38 @@
 
   /* Footer */
 
-  #footer {
-    display: none;
-    visibility: hidden;
+  footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+  }
+
+  footer div {
+    margin: 0 1.5rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    height: auto;
+  }
+
+  footer div h2 {
+    font-size: 1.5rem;
+    display: flex;
+    height: 25px;
+    align-items: center;
+  }
+
+  footer .titulo-footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  footer .icons {
+    gap: 1.5rem;
+    margin: 0;
   }
 }
