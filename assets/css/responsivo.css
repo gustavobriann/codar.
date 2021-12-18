@@ -95,17 +95,18 @@
 
   section#servicos .assist {
     margin: 0;
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #servicos .assist p {
     font: 700 1.2rem var(--font-padrao);
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .assist input {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   /* Depoimentos - Section*/
