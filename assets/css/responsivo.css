@@ -90,7 +90,7 @@
   }
 
   #servicos .lista-com-icons {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   section#servicos .assist {
@@ -112,9 +112,31 @@
   /* Depoimentos - Section*/
 
   #depoimentos {
-    display: none;
-    visibility: hidden;
+    flex-direction: column;
   }
+
+  .perfil {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  blockquote {
+    padding: 1rem;
+  }
+
+  blockquote p:nth-child(1) {
+    font-size: 0.9rem;
+  }
+
+  blockquote .text-dep h3 {
+    font: 400 1.1rem var(--font-padrao);
+  }
+
+  blockquote .text-dep {
+    width: 80%;
+  }
+
+  /* Footer */
 
   #footer {
     display: none;

@@ -212,8 +212,7 @@ blockquote {
   background-color: lightgray;
   font-family: var(--font-padrao);
 
-  height: 160px;
-  width: 450px;
+  max-width: 450px;
   padding: 2rem;
   border-radius: 0.8rem;
 }
@@ -222,12 +221,12 @@ blockquote .text-dep {
   width: 80%;
 }
 
-blockquote .text-dep h3 {
-  font: 400 1.5rem var(--font-padrao);
-}
-
 blockquote p:nth-child(1) {
   margin-bottom: 0.5rem;
+}
+
+blockquote .text-dep h3 {
+  font: 400 1.5rem var(--font-padrao);
 }
 
 blockquote .text-dep p:nth-child(3) {
