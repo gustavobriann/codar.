@@ -42,7 +42,7 @@ html {
 }
 
 img {
-  width: 400px;
+  max-width: 400px;
 }
 
 input {

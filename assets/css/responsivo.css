@@ -23,6 +23,8 @@
     visibility: hidden;
   }
 
+  /* Home - Section */
+
   #inicio {
     /* background-color: blueviolet; */
     display: flex;
@@ -70,10 +72,37 @@
     padding: 0.8rem 3rem;
   }
 
-  #servicos {
-    display: none;
-    visibility: hidden;
+  /* Serviços - Section*/
+
+  #servicos .servicos {
+    flex-direction: column;
   }
+
+  #servicos .img-servicos {
+    order: -1;
+    width: 250px;
+    margin-bottom: 1.5rem;
+  }
+
+  section#servicos .lista-servicos ul li {
+    font: 1.2rem var(--font-padrao);
+    padding-left: 1rem;
+  }
+
+  #servicos .lista-com-icons {
+    margin-bottom: 1.5rem;
+  }
+
+  #servicos .assist p {
+    font: 700 1.2rem var(--font-padrao);
+    margin-bottom: 0.5rem;
+  }
+
+  .assist input {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Depoimentos - Section*/
 
   #depoimentos {
     display: none;
