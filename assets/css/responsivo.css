@@ -93,6 +93,12 @@
     margin-bottom: 1.5rem;
   }
 
+  section#servicos .assist {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
   #servicos .assist p {
     font: 700 1.2rem var(--font-padrao);
     margin-bottom: 0.5rem;
