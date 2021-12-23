@@ -2,7 +2,7 @@
 
 @media (max-width: 500px) {
   .container {
-    margin: auto;
+    /* margin: auto; */
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
