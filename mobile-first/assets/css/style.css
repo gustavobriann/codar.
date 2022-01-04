@@ -26,6 +26,7 @@ ul {
 /* Base */
 
 .container {
+  max-width: 500px;
   margin-left: 2rem;
   margin-right: 2rem;
 }
