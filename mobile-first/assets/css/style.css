@@ -1,5 +1,4 @@
 /* Reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +7,13 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 ul {
   list-style: none;
 }
 
-/* Base */
+/* Variables  */
 
 :root {
   /* Fonts*/
@@ -25,9 +23,21 @@ ul {
   --cor-padrao: #d6000d;
 }
 
+/* Base */
+
 .container {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+/* Logo */
+.logo {
+  font: italic 700 3rem var(--font-padrao);
+  color: var(--cor-padrao);
+}
+
+.ponto-logo {
+  color: black;
 }
 
 /*=== Header ===*/
@@ -44,11 +54,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-}
-
-.logo {
-  font-size: 3rem;
+  gap: 1.5rem;
 }
 
 .menu {
