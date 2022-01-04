@@ -26,9 +26,14 @@ ul {
 /* Base */
 
 .container {
-  max-width: 500px;
+  /* max-width: 500px; */
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Logo */
@@ -67,4 +72,41 @@ nav {
 .menu li a {
   font: 400 1.2rem var(--font-padrao);
   color: black;
+}
+
+/*=== Section Início ===*/
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 3rem;
+}
+
+.img-inicio {
+  max-width: 500px;
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p:nth-child(1) {
+  font: 700 1rem var(--font-padrao);
+  color: black;
+}
+
+.text p:nth-child(2) {
+  font: 700 2.5rem var(--font-padrao);
+  color: var(--cor-padrao);
+}
+
+.button a {
+  font: 400 1rem var(--font-padrao);
+  background-color: var(--cor-padrao);
+  color: white;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
 }
