@@ -13,9 +13,14 @@ ul {
   list-style: none;
 }
 
-#header {
-  background-color: aqua;
+.container {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
+
+/* #header {
+  background-color: aqua;
+} */
 
 nav {
   height: 10rem;
@@ -35,5 +40,5 @@ nav {
 .menu {
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
