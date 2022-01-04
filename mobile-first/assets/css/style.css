@@ -1,3 +1,5 @@
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +15,26 @@ ul {
   list-style: none;
 }
 
+/* Base */
+
+:root {
+  /* Fonts*/
+  --font-padrao: 'Roboto', sans-serif;
+
+  /* Colors */
+  --cor-padrao: #d6000d;
+}
+
 .container {
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-/* #header {
+/*=== Header ===*/
+
+#header {
   background-color: aqua;
-} */
+}
 
 nav {
   height: 10rem;
