@@ -78,8 +78,6 @@ nav {
 
   align-items: center;
   gap: 3rem;
-
-  /* margin-bottom: 10rem; */
 }
 
 .img-inicio {
@@ -105,7 +103,7 @@ nav {
   font: 400 1.2rem var(--font-padrao);
   background-color: var(--cor-padrao);
   color: white;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   border-radius: 0.8rem;
 }
 
