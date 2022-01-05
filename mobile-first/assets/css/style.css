@@ -48,10 +48,6 @@ img {
 
 /*=== Header ===*/
 
-/* #header {
-  background-color: aqua;
-} */
-
 nav {
   height: 10rem;
   width: 100%;
@@ -82,10 +78,12 @@ nav {
 
   align-items: center;
   gap: 3rem;
+
+  /* margin-bottom: 10rem; */
 }
 
 .img-inicio {
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
 }
 
@@ -109,4 +107,44 @@ nav {
   color: white;
   padding: 1rem 4rem;
   border-radius: 0.8rem;
+}
+
+/*=== Section Servicos ===*/
+
+#servicos {
+  margin-top: 10rem;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-servicos {
+  max-width: 200px;
+  margin-bottom: 1.25rem;
+}
+
+.lista-com-icons {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.5rem;
+}
+
+.lista-com-icons li {
+  font: 400 1.2rem var(--font-padrao);
+  margin-left: 1rem;
+}
+
+.assist {
+  display: flex;
+  flex-direction: column;
+}
+
+.assist p {
+  font: 700 1rem var(--font-padrao);
+  margin-bottom: 1rem;
 }
