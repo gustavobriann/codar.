@@ -179,3 +179,31 @@ nav {
 
   margin-top: 1rem;
 }
+
+/*=== Section Depoimentos ===*/
+
+#depoimentos {
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.depoimento {
+  background-color: lightgray;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.depoimento p {
+  font: 400 1rem var(--font-padrao);
+}
+
+.depoimento h3 {
+  font: 400 1.5rem var(--font-padrao);
+}
+
+.depoimento p:nth-child(3) {
+  font: 700 1rem var(--font-padrao);
+}
