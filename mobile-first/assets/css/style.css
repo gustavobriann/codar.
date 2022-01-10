@@ -227,5 +227,11 @@ nav {
 
 blockquote {
   display: flex;
-  /* justify-content: space-between; */
+}
+
+/*=== Footer ===*/
+
+#footer {
+  background-color: black;
+  color: white;
 }
