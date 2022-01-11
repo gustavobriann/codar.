@@ -225,7 +225,7 @@ nav {
 
 .depoimento {
   background-color: lightgray;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 1rem;
 
   max-width: 300px;
@@ -240,15 +240,16 @@ nav {
   object-fit: cover;
   clip-path: circle();
 
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .text-dep {
   width: 80%;
 }
 
-.depoimento p {
+.depoimento p:nth-child(1) {
   font: 400 1rem var(--font-padrao);
+  margin-bottom: 0.5rem;
 }
 
 .depoimento h3 {
