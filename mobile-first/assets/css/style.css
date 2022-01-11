@@ -99,12 +99,24 @@ nav {
   color: var(--cor-padrao);
 }
 
-.button a {
+/* .button a {
   font: 400 1.2rem var(--font-padrao);
   background-color: var(--cor-padrao);
   color: white;
   padding: 1rem 3rem;
   border-radius: 0.8rem;
+} */
+
+.button a {
+  background-color: var(--cor-padrao);
+  color: white;
+
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 4rem;
+  border-radius: 1rem;
+  font: 400 1rem var(--font-padrao);
 }
 
 /*=== Section Servicos ===*/
