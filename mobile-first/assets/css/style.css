@@ -124,7 +124,7 @@ nav {
 #servicos {
   margin-top: 10rem;
 
-  height: 100vh;
+  /* height: 100vh; */
 
   display: flex;
   flex-direction: column;
@@ -171,13 +171,21 @@ nav {
 .assist input {
   border: none;
   background-color: rgba(128, 128, 128, 0.507);
-  padding: 1rem;
-  border-radius: 0.8rem;
 
+  height: 3rem;
   width: 90%;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  border-radius: 1rem;
 }
 
-.assist a {
+::-webkit-input-placeholder {
+  color: grey;
+  font: 400 0.9rem var(--font-padrao);
+}
+
+/* .assist a {
   font: 700 0.9rem var(--font-padrao);
   text-align: center;
 
@@ -190,12 +198,25 @@ nav {
   width: 90%;
 
   margin-top: 1rem;
+} */
+
+.assist a {
+  background-color: var(--cor-padrao);
+  color: white;
+
+  font: 700 0.9rem var(--font-padrao);
+
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  border-radius: 1rem;
 }
 
 /*=== Section Depoimentos ===*/
 
 #depoimentos {
-  height: 50vh;
+  /* height: 50vh; */
 
   display: flex;
   flex-direction: column;
