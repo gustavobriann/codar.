@@ -283,3 +283,24 @@ blockquote {
   text-align: center;
   margin-bottom: 1rem;
 }
+
+#footer .footer-main {
+  max-width: 60%;
+}
+
+#footer .footer-main div {
+  margin-bottom: 1rem;
+}
+
+#footer .footer-main h2 {
+  margin-bottom: 0.5rem;
+}
+
+#footer .redes-sociais h2 {
+  margin-bottom: 1rem;
+}
+
+#footer .icons {
+  display: flex;
+  gap: 1.5rem;
+}
