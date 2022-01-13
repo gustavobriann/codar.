@@ -243,13 +243,11 @@ nav {
 #footer {
   background-color: black;
   color: white;
-
   font-family: var(--font-padrao);
 }
 
 #footer .logo {
   color: white;
-  text-align: center;
   margin-bottom: 0.5rem;
 }
 
@@ -258,16 +256,21 @@ nav {
   margin-bottom: 1rem;
 }
 
-#footer .footer-main {
-  max-width: 60%;
-}
-
-#footer .footer-main div {
+#footer .footer-sobre {
   margin-bottom: 1rem;
+  max-width: 50%;
 }
 
-#footer .footer-main h2 {
+#footer .footer-sobre h2 {
   margin-bottom: 0.5rem;
+}
+
+#footer .footer-contato h2 {
+  margin-bottom: 0.5rem;
+}
+
+#footer .footer-contato p {
+  margin-bottom: 1rem;
 }
 
 #footer .redes-sociais {
