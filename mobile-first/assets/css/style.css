@@ -25,6 +25,10 @@ ul {
 
 /* Base */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   /* max-width: 500px; */
   margin-left: 2rem;
@@ -37,13 +41,14 @@ img {
 }
 
 /* Logo */
+
 .logo {
   font: italic 700 3rem var(--font-padrao);
   color: var(--cor-padrao);
 }
 
 .ponto-logo {
-  color: black;
+  color: #000000;
 }
 
 /*=== Header ===*/
@@ -67,7 +72,7 @@ nav {
 
 .menu li a {
   font: 400 1.2rem var(--font-padrao);
-  color: black;
+  color: #000000;
 }
 
 /*=== Section Início ===*/
