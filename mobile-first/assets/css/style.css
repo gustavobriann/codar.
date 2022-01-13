@@ -249,6 +249,7 @@ nav {
 #footer .logo {
   color: white;
   margin-bottom: 0.5rem;
+  padding-top: 1rem;
 }
 
 #footer .footer-header {
@@ -261,16 +262,10 @@ nav {
   max-width: 50%;
 }
 
-#footer .footer-sobre h2 {
-  margin-bottom: 0.5rem;
-}
-
-#footer .footer-contato h2 {
-  margin-bottom: 0.5rem;
-}
-
+#footer .footer-sobre h2,
+#footer .footer-contato h2,
 #footer .footer-contato p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #footer .redes-sociais {
