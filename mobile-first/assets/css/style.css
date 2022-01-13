@@ -108,9 +108,10 @@ nav {
   font: 400 1rem var(--font-padrao);
 
   height: 3rem;
+  width: 17rem;
   display: inline-flex;
+  justify-content: center;
   align-items: center;
-  padding: 0 4rem;
   border-radius: 1rem;
 }
 
