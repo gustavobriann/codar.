@@ -157,14 +157,13 @@ nav {
 
 #servicos .assist input {
   border: none;
-  background-color: rgba(128, 128, 128, 0.507);
+  background-color: #80808081;
 
   height: 3rem;
   width: 15rem;
 
   padding-left: 1.5rem;
   border-radius: 1rem;
-
   margin-bottom: 1rem;
 }
 
@@ -194,20 +193,19 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
 }
 
-.depoimento {
-  background-color: lightgray;
+#depoimentos .depoimento {
+  background-color: #d3d3d3;
   padding: 1rem;
   border-radius: 1rem;
 
-  max-width: 300px;
+  max-width: 350px;
 
   margin-bottom: 1.5rem;
 }
 
-.perfil {
+#depoimentos .perfil {
   background-color: var(--cor-padrao);
   width: 4rem;
   height: 4rem;
@@ -217,24 +215,26 @@ nav {
   margin-right: 1rem;
 }
 
-.text-dep {
+#depoimentos .text-dep {
   width: 80%;
 }
 
-.depoimento p:nth-child(1) {
+#depoimentos .depoimento p:nth-child(1) {
   font: 400 1rem var(--font-padrao);
   margin-bottom: 0.5rem;
 }
 
-.depoimento h3 {
+#depoimentos .depoimento h3 {
   font: 400 1.5rem var(--font-padrao);
+  color: #000000;
 }
 
-.depoimento p:nth-child(3) {
+#depoimentos .depoimento p:nth-child(3) {
   font: 700 1rem var(--font-padrao);
+  color: #000000;
 }
 
-blockquote {
+#depoimentos blockquote {
   display: flex;
 }
 
