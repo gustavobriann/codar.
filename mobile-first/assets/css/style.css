@@ -80,48 +80,38 @@ nav {
 #inicio {
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
-.img-inicio {
-  max-width: 400px;
-  margin: auto;
+#inicio .img-inicio {
+  max-width: 350px;
 }
 
-.text {
+#inicio .text-inicio {
   text-align: center;
 }
 
-.text p:nth-child(1) {
+#inicio .text-inicio p:nth-child(1) {
   font: 700 1rem var(--font-padrao);
-  color: black;
+  color: #000000;
 }
 
-.text p:nth-child(2) {
+#inicio .text-inicio p:nth-child(2) {
   font: 700 2.5rem var(--font-padrao);
   color: var(--cor-padrao);
 }
 
-/* .button a {
-  font: 400 1.2rem var(--font-padrao);
+#inicio .button a {
   background-color: var(--cor-padrao);
   color: white;
-  padding: 1rem 3rem;
-  border-radius: 0.8rem;
-} */
-
-.button a {
-  background-color: var(--cor-padrao);
-  color: white;
+  font: 400 1rem var(--font-padrao);
 
   height: 3rem;
   display: inline-flex;
   align-items: center;
   padding: 0 4rem;
   border-radius: 1rem;
-  font: 400 1rem var(--font-padrao);
 }
 
 /*=== Section Servicos ===*/
