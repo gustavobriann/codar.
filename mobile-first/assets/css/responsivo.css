@@ -27,4 +27,35 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  #inicio .text-inicio {
+    text-align: left;
+  }
+
+  /*=== Section Servicos ===*/
+
+  #servicos .servicos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    /* gap: 5rem; */
+  }
+
+  #servicos .lista-com-icons {
+    margin-bottom: 0.5rem;
+  }
+
+  #servicos .img-servicos {
+    max-width: 350px;
+  }
+
+  #servicos .assist {
+    align-items: flex-start;
+    margin-left: 4rem;
+  }
+
+  #servicos .input-button {
+    display: flex;
+    gap: 1rem;
+  }
 }
