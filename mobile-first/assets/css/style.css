@@ -129,7 +129,7 @@ nav {
 #inicio .button a {
   background-color: var(--cor-padrao);
   color: white;
-  font: 400 1rem var(--font-padrao);
+  font: 700 1rem var(--font-padrao);
 
   height: 3rem;
   width: 17rem;
