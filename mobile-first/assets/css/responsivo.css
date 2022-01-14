@@ -8,7 +8,7 @@
   /*=== Header ===*/
 
   nav {
-    max-width: 800px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 
@@ -22,4 +22,9 @@
   }
 
   /*=== Section Início ===*/
+
+  #inicio {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

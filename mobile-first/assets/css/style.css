@@ -107,6 +107,11 @@ nav {
   max-width: 350px;
 }
 
+#inicio .text-button {
+  display: grid;
+  gap: 2rem;
+}
+
 #inicio .text-inicio {
   text-align: center;
 }
