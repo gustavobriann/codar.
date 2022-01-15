@@ -41,6 +41,10 @@
     /* gap: 5rem; */
   }
 
+  #servicos .lista-servicos {
+    margin-right: 5rem;
+  }
+
   #servicos .lista-com-icons {
     margin-bottom: 0.5rem;
   }
