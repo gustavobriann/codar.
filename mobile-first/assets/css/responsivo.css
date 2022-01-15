@@ -55,7 +55,7 @@
 
   #servicos .assist {
     align-items: flex-start;
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   #servicos .input-button {
@@ -77,5 +77,33 @@
   #depoimentos .depoimento {
     margin-bottom: 0;
     max-width: 380px;
+  }
+
+  /*=== Footer ===*/
+
+  #footer .footer {
+    height: 20rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #footer .logo {
+    color: white;
+    margin-bottom: 0.5rem;
+    padding: 0;
+  }
+
+  #footer .footer-header,
+  .footer-sobre,
+  .footer-contato,
+  .redes-sociais {
+    width: 200px;
+  }
+
+  #footer .footer-header {
+    text-align: left;
   }
 }

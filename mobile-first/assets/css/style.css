@@ -278,6 +278,11 @@ nav {
   font-family: var(--font-padrao);
 }
 
+#footer .footer {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 #footer .logo {
   color: white;
   margin-bottom: 0.5rem;
