@@ -83,16 +83,14 @@
 
   #footer .footer {
     height: 20rem;
+    width: 100%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
   }
 
   #footer .logo {
-    color: white;
-    margin-bottom: 0.5rem;
     padding: 0;
   }
 
@@ -100,10 +98,18 @@
   .footer-sobre,
   .footer-contato,
   .redes-sociais {
+    height: 150px;
     width: 200px;
   }
 
   #footer .footer-header {
     text-align: left;
+  }
+
+  #footer div h2 {
+    font-size: 1.5rem;
+    display: flex;
+    height: 70px;
+    align-items: center;
   }
 }
