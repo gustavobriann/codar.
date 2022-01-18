@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   .container {
-    max-width: 600px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -62,7 +62,7 @@
 
   #depoimentos .depoimento {
     margin-bottom: 0;
-    max-width: 300px;
+    max-width: 320px;
   }
 }
 
