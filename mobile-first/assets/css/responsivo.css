@@ -47,6 +47,23 @@
   #servicos .input-button {
     display: block;
   }
+
+  /*=== Section Depoimentos ===*/
+
+  #depoimentos {
+    flex-direction: row;
+    align-items: inherit;
+    justify-content: space-between;
+    gap: 1rem;
+
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  #depoimentos .depoimento {
+    margin-bottom: 0;
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 1024px) {
