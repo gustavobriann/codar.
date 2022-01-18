@@ -128,6 +128,7 @@
 
   #servicos .input-button {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
   }
 
