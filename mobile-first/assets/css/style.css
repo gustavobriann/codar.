@@ -184,7 +184,8 @@ nav {
 }
 
 #servicos .input-button {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #servicos .assist input {
