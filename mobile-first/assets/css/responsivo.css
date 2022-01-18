@@ -28,12 +28,24 @@
     justify-content: space-evenly;
   }
 
-  /* #inicio .text-inicio {
-    text-align: center;
-  } */
-
   #inicio .text-inicio p:nth-child(2) {
     font: 700 2.3rem var(--font-padrao);
+  }
+
+  /*=== Section Servicos ===*/
+
+  #servicos .servicos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  #servicos .img-servicos {
+    max-width: 300px;
+  }
+
+  #servicos .input-button {
+    display: block;
   }
 }
 
