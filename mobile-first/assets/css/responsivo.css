@@ -117,17 +117,7 @@
 
   /*=== Section Depoimentos ===*/
 
-  #depoimentos {
-    flex-direction: row;
-    align-items: inherit;
-    justify-content: space-between;
-
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-  }
-
   #depoimentos .depoimento {
-    margin-bottom: 0;
     max-width: 380px;
   }
 
