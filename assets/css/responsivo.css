@@ -154,4 +154,17 @@
     height: 70px;
     align-items: center;
   }
+
+  #footer .logo {
+    margin-bottom: 1rem;
+  }
+
+  #footer .footer-sobre,
+  #footer .footer-header {
+    margin-bottom: 0;
+  }
+
+  #footer .redes-sociais h2 {
+    margin-bottom: 0.5rem;
+  }
 }
